@@ -1,0 +1,51 @@
+.accordion {
+  background-color: rgba(0,0,0,0);
+  color: #ecc42a;
+  cursor: pointer;
+  padding: 3px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  transition: 0.4s;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'vison-font';
+}
+
+.active, .accordion:hover {
+  background-color: #ecc42a;
+  color: #000;
+}
+
+.accordion:before {
+  content: '\002B';
+  color: #fff;
+  font-weight: bold;
+  float: left;
+  
+  margin-right: 5px;
+}
+
+.active:before {
+  content: "\2212";
+}
+
+.panel {
+  margin-top: 10px;
+  padding: 0 18px;
+  background-color: rgba(0,0,0,0);
+  max-height: 12;
+  font-size: 16px;
+  overflow: hidden;
+
+  color: #fff;
+  transition: max-height 0.2s ease-out;
+  display: none;
+
+}
+
+.panel p
+{
+  
+}

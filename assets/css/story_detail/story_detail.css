@@ -1,0 +1,5 @@
+#article_image {
+    height:auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}

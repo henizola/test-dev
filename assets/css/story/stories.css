@@ -1,0 +1,26 @@
+
+
+#news_list_stories {
+    height:auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+#press-release-materials {
+    height:auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+/* #news-img {
+    height: 300px;
+    object-fit: fill;
+}
+
+
+.loadmore-container {
+    margin-top: -70px;
+}
+
+.make-room-for-loadmore-btn {
+    padding-bottom: 70px;
+} */

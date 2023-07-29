@@ -1,0 +1,10 @@
+#portfolio_imgs_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto !important;
+}
+
+.portfolio_img {
+    height: 300px;
+    object-fit: cover;
+}
